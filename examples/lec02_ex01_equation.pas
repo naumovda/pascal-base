@@ -22,6 +22,8 @@ begin
   write('  c = ');
   readln(c);
 
+  assert(a <> 0, 'Error input data (a=0)');
+
   //эхо-печать исходных данных
   writeln('Введены значения');
   writeln('  a = ', a:10:4);
@@ -37,7 +39,7 @@ begin
 
   writeln;
   if d < 0 then
-    writeln('Действительных корней нет');
+    writeln('Действительных корней нет')
   else
     begin
       x1 := (-b - sqrt(d))/(2*a);
