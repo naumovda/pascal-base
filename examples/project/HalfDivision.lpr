@@ -28,6 +28,7 @@ const
 function f(x: TValue): TValue;
 begin
   f := exp(x/10)*cos(x+Pi/3);
+  //f := (x-2)*(x+3);
 end;
 
 var
