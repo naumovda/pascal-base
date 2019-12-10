@@ -21,7 +21,7 @@ var
 
 begin
   write('Enter figure size (1..9):' );
-  readnn(n);
+  readln(n);
 
   for i := 1 to n do
     write(i);
