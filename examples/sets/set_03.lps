@@ -6,18 +6,25 @@
     <BuildModes Active="Default"/>
     <Units Count="1">
       <Unit0>
-        <Filename Value="HalfDivision.lpr"/>
+        <Filename Value="set_03.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <CursorPos X="26" Y="26"/>
+        <TopLine Value="35"/>
+        <CursorPos X="23" Y="75"/>
         <UsageCount Value="20"/>
+        <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="set_03.lpr"/>
+        <Caret Line="19" Column="65"/>
+      </Position1>
+      <Position2>
+        <Filename Value="set_03.lpr"/>
+        <Caret Line="73" Column="31" TopLine="35"/>
+      </Position2>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>

@@ -6,11 +6,11 @@
     <BuildModes Active="Default"/>
     <Units Count="1">
       <Unit0>
-        <Filename Value="HalfDivision.lpr"/>
+        <Filename Value="set_02.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
-        <CursorPos X="26" Y="26"/>
+        <CursorPos X="8" Y="15"/>
         <UsageCount Value="20"/>
       </Unit0>
     </Units>
