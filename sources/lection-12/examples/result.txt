@@ -1,0 +1,7 @@
+Source file name:file_02.d
+Input data:
+3 4 5 6 4 5 4 5 7 5 6 
+Minimum element is 3 in position 0
+Maximum element is 7 in position 9
+Result data:
+7 4 5 6 4 5 4 5 7 3 6 
