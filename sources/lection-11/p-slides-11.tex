@@ -1,0 +1,181 @@
+\documentclass{beamer}
+\mode<presentation>
+\usetheme{CambridgeUS}
+\usepackage[russian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage{sansmathaccent}
+
+\usepackage{verbatim}
+\usepackage{alltt}
+
+\pdfmapfile{+sansmathaccent.map}
+\title[Модули]{Модули}
+\author{Наумов Д.А., доц. каф. КТ, ИТГД }
+\date[01.04.2020] {Программирование и алгоритмические языки, 2020}
+
+\begin{document}
+
+%ТИТУЛЬНЫЙ СЛАЙД
+\begin{frame}
+  \titlepage
+\end{frame}
+  
+%СОДЕРЖАНИЕ ЛЕКЦИИ
+\begin{frame}
+  \frametitle{Содержание лекции}
+  \tableofcontents  
+\end{frame}
+  
+%РАЗДЕЛ 1
+\section{Модули}
+
+\begin{frame}
+\begin{block}{Модульное программирование}
+организация программы как совокупности независимых блоков (модулей).
+\end{block}
+Использование модульного программирования:
+\begin{enumerate}
+\item упрощает разработку и тестирование программу;
+\item дает возможность разрабатывать программу группе разработчиков;
+\item позволяет проводить обновление (замену) модуля без изменения остальной части системы.
+\end{enumerate}
+Основной принцип структурного программирования: декомпозиция сложных на более простые подззадачи.
+\end{frame} 
+
+\begin{frame}
+\begin{block}{Модуль}
+автономно компилируемая программная единица, реализующая определенную функциональность
+и предоставляющая интерфейс к ней.
+\end{block}
+В Pascal модуль представляющая собой библиотеку типов данных, констант, переменных, процедур и функций.
+\begin{enumerate}
+\item исходный текст программы: pas
+\item результат компиляции программы: exe
+\item исходный текст модуля: pas
+\item результат компиляции модуля: tpu (Turbo pascal), dcu (Delphi), pcu (Pascal ABC).
+\end{enumerate}
+\end{frame} 
+
+\begin{frame}[fragile]{Структура модуля}
+\begin{alltt}
+ 1 unit <Имя модуля>;//Заголовок модуля 	
+ 2 //Интерфейсная секция (открытые описания)
+ 3   interface 
+ 4	    uses <СписокМодулей>; 
+ 5	    <РазделОткрытыхОписаний>
+ 6 //Секция реализации (закрытые описания)
+ 7   implementation 
+ 8	    uses <СписокМодулей>;  
+ 9	    <РазделЗакрытыхОписаний>
+10 //Секция инициализациия
+11   begin
+12	    <РазделИнициализации>
+13   end.
+\end{alltt}
+Заголовок модуля является обязательным, имя модуля должно быть идентификатором языка Pascal и совпадать с именем файла модуля.
+\end{frame}
+
+\begin{frame}[fragile]
+Для связи модулей друг с другом используется секция uses, где перечисляются имена подключаемых модулей.
+\begin{enumerate}
+\item порядок подключения модулей в современных реализациях языка Pascal не важен;
+\item повторное подключение модуля в одной программе (модуле) приведет к ошибке компиляции.
+\end{enumerate}
+\begin{alltt}
+//текст модуля
+1 unit Complex; //заголовок модуля
+2 end. 
+
+//текст программы
+1 uses Complex; //подключаем модуль
+2 begin 
+3 end.
+\end{alltt}
+\end{frame} 
+
+\begin{frame}[fragile]{Интерфейсная секция}
+\begin{block}{Интерфейсная секция}
+содержит описания, которые будут доступны в других модулях и программах при подключении данного модуля.
+\end{block}
+Интерфейсная секция может содержать:
+\begin{itemize}
+\item раздел подключения модулей (чтобы использовать их в разделе описания данной секции); 
+\item раздел описания открытых констант, переменных, типов данных;
+\item описание (сигнатуры, заголовки) открытых процедур и функций.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Фрагмент модуля работы с комплексными числами}
+\begin{alltt}
+ 1 unit Complex;
+ 2 interface
+ 3   type
+ 4     TСElem = real;
+ 5     TComplex = record Re, Im: TСElem; end;
+ 6   const
+ 7     C_ZERO: TComplex = (Re:0; Im:0);
+ 8     C_ONE: TComplex = (Re:1; Im:0);
+ 9     C_IM_ONE: TComplex = (Re:0; Im:1);
+ 10  procedure Init(var A: TComplex; Re, Im: TСElem);
+ 11  procedure Add(const A, B: TComplex; var C: TComplex);
+ 12  procedure Sub(const A, B: TComplex; var C: TComplex); 
+ 13  function GetModule(const A: TComplex): TCElem;
+ 14  function GetArgument(const A: TComplex): TCElem;
+\end{alltt}
+\end{frame} 
+
+\begin{frame}[fragile]{Cекция реализации}
+\begin{block}{Cекция реализации должна содержать:}
+\begin{itemize}
+\item определение (реализация) процедур и функций, описанных в интерфейсной секции;
+\end{itemize}
+\end{block}
+При определении процедур и функций, описанных в интерфейсной части, можно опускать список формальных параметров.
+\begin{block}{Cекция реализации может содержать:}
+\begin{itemize}
+\item раздел подключения модулей (чтобы использовать их в данной секции и секции инициализации); 
+\item раздел описания закрытых констант, переменных, типов данных;
+\item определение (реализация) закрытых процедур и функций;
+\end{itemize}
+\end{block}
+Константы, переменные, типы данных, подпрограммы, описанные в секции реализации,
+являются локальными для модуля и не будут видны в программах и модулях, которые подключат данный модуль.
+\end{frame}
+
+\begin{frame}[fragile]{Фрагмент модуля работы с комплексными числами}
+\begin{alltt}
+15 implementation
+16   const
+17     EPS = 1e-6;
+18   var
+19     iCError: integer;
+20   procedure Init(Re, Im: TСElem; var A: TComplex);
+21	 begin
+22      A.Re := Re; A.Im := Im;
+23	 end;
+24   procedure Add(const A, B: TComplex; var C: TComplex);
+25   begin
+26      C.Re := A.Re + B.Re;
+27      C.Im := A.Im + B.Im;
+28   end;
+\end{alltt}
+\end{frame} 
+
+\begin{frame}[fragile]{Cекция инициализации}
+\begin{block}{В секции инициализации}
+размещаются операторы, которые исполняются один раз в процессе запуска программы и
+используются для подготовки работы модуля (инициализация значений переменных и т.д.).
+\end{block}
+Запуск секций инициализации осуществляется в порядке следования имен модулей в секции uses.
+\begin{alltt}
+29 begin
+30   iCError := 0;
+31 end;
+\end{alltt}
+Пример модуля: ComplexUnit.pas.
+
+Пример использования модуля: ComplexProgram.pas.
+\end{frame}
+
+\end{document}
