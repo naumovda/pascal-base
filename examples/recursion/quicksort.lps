@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="quicksort.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="18" Y="6"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="36" TopLine="26"/>
+      </Position1>
+      <Position2>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="37" TopLine="26"/>
+      </Position2>
+      <Position3>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="38" TopLine="26"/>
+      </Position3>
+      <Position4>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="39" TopLine="26"/>
+      </Position4>
+      <Position5>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="40" TopLine="26"/>
+      </Position5>
+      <Position6>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="22" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="24" TopLine="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="27" TopLine="11"/>
+      </Position8>
+      <Position9>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="30" TopLine="12"/>
+      </Position9>
+      <Position10>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="32" TopLine="15"/>
+      </Position10>
+      <Position11>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="33" TopLine="16"/>
+      </Position11>
+      <Position12>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="42" TopLine="32"/>
+      </Position12>
+      <Position13>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="52" TopLine="34"/>
+      </Position13>
+      <Position14>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="48" TopLine="34"/>
+      </Position14>
+      <Position15>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="49" TopLine="34"/>
+      </Position15>
+      <Position16>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="55" TopLine="37"/>
+      </Position16>
+      <Position17>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="53" TopLine="37"/>
+      </Position17>
+      <Position18>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="39" Column="17" TopLine="20"/>
+      </Position18>
+      <Position19>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="62" TopLine="51"/>
+      </Position19>
+      <Position20>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="63" TopLine="51"/>
+      </Position20>
+      <Position21>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="65" TopLine="51"/>
+      </Position21>
+      <Position22>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="66" TopLine="51"/>
+      </Position22>
+      <Position23>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="65" TopLine="51"/>
+      </Position23>
+      <Position24>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="66" TopLine="51"/>
+      </Position24>
+      <Position25>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="73" TopLine="55"/>
+      </Position25>
+      <Position26>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="48" TopLine="37"/>
+      </Position26>
+      <Position27>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="49" TopLine="37"/>
+      </Position27>
+      <Position28>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="51" TopLine="37"/>
+      </Position28>
+      <Position29>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="52" TopLine="37"/>
+      </Position29>
+      <Position30>
+        <Filename Value="quicksort.lpr"/>
+        <Caret Line="53" TopLine="37"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="5">
+      <Item1>
+        <Expression Value="low"/>
+      </Item1>
+      <Item2>
+        <Expression Value="j"/>
+      </Item2>
+      <Item3>
+        <Expression Value="A"/>
+      </Item3>
+      <Item4>
+        <Expression Value="pivot"/>
+      </Item4>
+      <Item5>
+        <Expression Value="high"/>
+      </Item5>
+    </Watches>
+  </Debugging>
+</CONFIG>

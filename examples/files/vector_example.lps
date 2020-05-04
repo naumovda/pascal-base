@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="vector_example.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="84"/>
+        <CursorPos Y="93"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="94" Column="57" TopLine="83"/>
+      </Position1>
+      <Position2>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="88" TopLine="81"/>
+      </Position2>
+      <Position3>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position3>
+      <Position4>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="90" TopLine="81"/>
+      </Position4>
+      <Position5>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="91" TopLine="81"/>
+      </Position5>
+      <Position6>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="93" TopLine="81"/>
+      </Position6>
+      <Position7>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="94" TopLine="81"/>
+      </Position7>
+      <Position8>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="90" Column="58" TopLine="81"/>
+      </Position8>
+      <Position9>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="88" TopLine="81"/>
+      </Position9>
+      <Position10>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="89" TopLine="81"/>
+      </Position10>
+      <Position11>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="90" TopLine="81"/>
+      </Position11>
+      <Position12>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="91" TopLine="81"/>
+      </Position12>
+      <Position13>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="93" TopLine="81"/>
+      </Position13>
+      <Position14>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="96" TopLine="81"/>
+      </Position14>
+      <Position15>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="98" Column="40" TopLine="86"/>
+      </Position15>
+      <Position16>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="88" TopLine="83"/>
+      </Position16>
+      <Position17>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="89" TopLine="83"/>
+      </Position17>
+      <Position18>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="90" TopLine="83"/>
+      </Position18>
+      <Position19>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="91" TopLine="83"/>
+      </Position19>
+      <Position20>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="93" TopLine="83"/>
+      </Position20>
+      <Position21>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="96" TopLine="83"/>
+      </Position21>
+      <Position22>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="98" TopLine="83"/>
+      </Position22>
+      <Position23>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="104" TopLine="83"/>
+      </Position23>
+      <Position24>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="88" TopLine="86"/>
+      </Position24>
+      <Position25>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="104" Column="77" TopLine="86"/>
+      </Position25>
+      <Position26>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="88" TopLine="83"/>
+      </Position26>
+      <Position27>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="89" TopLine="83"/>
+      </Position27>
+      <Position28>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="90" TopLine="83"/>
+      </Position28>
+      <Position29>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="91" TopLine="83"/>
+      </Position29>
+      <Position30>
+        <Filename Value="vector_example.lpr"/>
+        <Caret Line="93" TopLine="83"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1" ActiveMode="default">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="/t"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
