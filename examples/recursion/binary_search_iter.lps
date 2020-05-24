@@ -4,21 +4,15 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="2">
+    <Units Count="1">
       <Unit0>
-        <Filename Value="untyped_file.lpr"/>
+        <Filename Value="binary_search_iter.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
+        <CursorPos X="92" Y="11"/>
         <UsageCount Value="20"/>
       </Unit0>
-      <Unit1>
-        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\inc\systemh.inc"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1223"/>
-        <CursorPos X="18" Y="1246"/>
-        <UsageCount Value="10"/>
-      </Unit1>
     </Units>
     <General>
       <ActiveWindowIndexAtStart Value="-1"/>
@@ -26,13 +20,7 @@
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
-      <Modes Count="1" ActiveMode="default">
-        <Mode0 Name="default">
-          <local>
-            <CommandLineParams Value="/?"/>
-          </local>
-        </Mode0>
-      </Modes>
+      <Modes Count="0" ActiveMode=""/>
     </RunParams>
   </ProjectSession>
 </CONFIG>

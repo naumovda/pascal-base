@@ -56,18 +56,23 @@ procedure QuickSort(var A: TArray; low, high: TIndex);
 var
   p: TElem;
 begin
+  if low > high then
+	exit;
+  
   writeln('l=', low, ' h=', high);
+	
+  p := DoPartition(A, low, high);
+  QuickSort(A, low, p);
+  QuickSort(A, p+1, high);
+end;
 
-  if low < high then
-  begin
-    p := DoPartition(A, low, high);
-
-    if p > low then
-      QuickSort(A, low, p);
-
-    if high > p+1 then
-      QuickSort(A, p+1, high);
-  end;
+procedure PrintArray(const A: TArray);
+var
+  i: TIndex;
+begin
+  for i := low to high do
+    write(A[i], ' ');
+  writeln;
 end;
 
 var
@@ -82,17 +87,14 @@ begin
   for i := low to high do
     v[i] := random(100);
 
-  writeln('before sort:');
-  for i := low to high do
-    write(v[i], ' ');
-  writeln;
+  WriteLn('before sort:');
+  PrintArray(v);
 
   QuickSort(v, low, high);
 
-  writeln('after sort:');
-  for i := low to high do
-    write(v[i], ' ');
-  writeln;
-  writeln('is sorted?=', IsSorted(v, low, high));
+  WriteLn('after sort:');
+  PrintArray(v);
+
+  writeln('is really sorted?=', IsSorted(v, low, high));
 end.
 

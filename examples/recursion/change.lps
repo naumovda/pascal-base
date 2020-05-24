@@ -6,21 +6,15 @@
     <BuildModes Active="Default"/>
     <Units Count="1">
       <Unit0>
-        <Filename Value="numbers.lpr"/>
+        <Filename Value="change.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="25"/>
-        <CursorPos X="86" Y="40"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="57" Y="6"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <JumpHistory Count="1">
-      <Position1>
-        <Filename Value="numbers.lpr"/>
-        <Caret Line="24" Column="8" TopLine="13"/>
-      </Position1>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>
